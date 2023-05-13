@@ -155,6 +155,11 @@ img {
   overflow: visible;
 }
 
+/* Languages */
+.languages .grid {
+  grid-template-columns: repeat(7, 1fr);
+}
+
 /* Animation */
 @keyframes slideInFromLeft {
   0% {
