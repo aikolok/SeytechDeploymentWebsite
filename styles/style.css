@@ -132,6 +132,17 @@ img {
   padding-top: 100px;
 }
 
+/* CLI */
+.cli .grid {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.cli .grid img {
+  grid-column: 1 / span 2;
+  grid-row: 1 / 3;
+}
+
 /* Animation */
 @keyframes slideInFromLeft {
   0% {
