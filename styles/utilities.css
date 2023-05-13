@@ -33,6 +33,10 @@
   transform: scale(0.95);
 }
 
+.btn-dark {
+  background-color: var(--dark-color);
+}
+
 .flex {
   display: flex;
   justify-content: center;
@@ -49,4 +53,12 @@
 
 .grid-3 {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.lg-text {
+  font-size: 3rem;
+}
+
+.text-center {
+  text-align: center;
 }
